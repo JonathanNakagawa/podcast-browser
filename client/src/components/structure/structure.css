@@ -1,0 +1,35 @@
+.podcast-row {
+    width: 100%;
+
+
+    padding: 2em;
+}
+
+.podcast-row__title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.podcast-row__items {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.title-card {
+    width: 12vw;
+    height: 12vw;
+    min-width: 160px;
+    min-height: 160px;
+
+    background-size: 100% 100%;
+
+    border-radius: 3%;
+
+    margin: 1em 2em 2em 1em;
+}
+
