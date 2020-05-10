@@ -1,21 +1,21 @@
 .podcast-row {
     margin: 1em 5em 1em 5em;
 
-    /* padding: 2em; */
 }
 
 .podcast-row__title {
-    font-size: 20pt;
+    font-size: 35pt;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    margin-bottom: 8px;
 }
 
 .podcast-row__items {
     display: flex;
 
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
 
     margin: 0 -2em 0 -2em;
     padding: 0;
@@ -28,10 +28,32 @@
     min-width: 160px;
     min-height: 160px;
 
-    background-size: 100% 100%;
 
-    border-radius: 3%;
 
-    margin: 1em 2em 1em 2em;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
+.title-card__image {
+    width: 12vw;
+    height: 12vw;
+
+    background-size: 100% 100%;
+
+    margin-bottom: 1rem;
+
+    border-radius: 3%;
+}
+
+.title-card__description {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-card__description__title {
+    font-weight: bold;
+}
+
+.title-card__description__author {
+    color: lightgray;
+
+    font-weight: 300;
+}
