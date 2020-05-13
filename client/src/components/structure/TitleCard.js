@@ -3,7 +3,6 @@ import React from 'react';
 import './structure.css';
 
 function TitleCard(props) {
-    console.log("url(" + props.imageURL + ")")
     return(
         <div className="title-card">
             <div className="title-card__image" style={{backgroundImage: "url(" + props.imageURL + ")"}}/>
