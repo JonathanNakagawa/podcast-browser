@@ -2,10 +2,12 @@ import React from 'react';
 
 import './structure.css';
 
+import Thumbnail from './Thumbnail';
+
 function TitleCard(props) {
     return(
         <div className="title-card">
-            <div className="title-card__image" style={{backgroundImage: "url(" + props.imageURL + ")"}}/>
+            <Thumbnail imageURL = {props.imageURL}/>
             <div className="title-card__description">
                 <div className="title-card__description__title">{props.title}</div>
                 <div className="title-card__description__author">{props.author}</div>

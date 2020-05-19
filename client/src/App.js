@@ -13,7 +13,7 @@ function App() {
         <Route path="/" exact>
           <LandingPage/>
         </Route>
-        <Route path="/:title">
+        <Route path="/podcast/:feedURL">
           <PodcastHome/>
         </Route>
       </div>
