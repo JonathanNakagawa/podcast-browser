@@ -10,15 +10,21 @@ function PodcastHeader(props) {
     return(
         <div className="podcast-header__container">
             <div className="podcast-header__content">
-                <Thumbnail 
-                    imageURL={props.thumbnailURL}
-                    height={TUMBNAIL_HEIGHT}
-                    width={TUMBNAIL_WIDTH}
-                />
+                <div className="podcast-header__image">
+                    <Thumbnail 
+                        imageURL={props.thumbnailURL}
+                        height={TUMBNAIL_HEIGHT}
+                        width={TUMBNAIL_WIDTH}
+                    />
+                </div>
+
                 <div className="podcast-header__meta">
                     <div className="podcast-header__title"> {props.title} </div>
                     <div className="podcast-header__author"> {props.author} </div>
-                    <div className="podcast-header__subtitle"> {props.subtitle} </div>
+                    {/* <div className="podcast-header__subtitle"> {props.subtitle} </div> */}
+                    <div className="podcast-header__subtitle">
+                        blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah blahblahblahblah v v v
+                    </div>
                     {/* <div className="podcast-header__description"> {props.description} </div> */}
                 </div>
             </div>
